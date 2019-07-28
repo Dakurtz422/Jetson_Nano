@@ -17,7 +17,7 @@ def temp():
 	#print(temp_out)
 
 	for y, x in enumerate(temp_out):
-		x = int(x) / 1000
+		x = (x) / 1000
 		time = datetime.datetime.now()
 		time = time.strftime(" -> /%m/%d  %H:%M")
 		print(x ,"°C" , time)
