@@ -20,7 +20,7 @@ def temp():
 		x = (x) / 1000
 		time = datetime.datetime.now()
 		time = time.strftime(" -> /%m/%d  %H:%M")
-		print(x ,"°C" , time)
+		print(x, "°C", time)
 		if x > max_temp:
 			# If HOT do something here (send mails, etc..)
 			print(f"Processor {y} is HOT" )
